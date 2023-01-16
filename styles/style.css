@@ -285,11 +285,11 @@ header {
     text-align: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    transition: .5s;
+    transition: .8s;
 }
 
 .fact-box:hover {
-    transform: scale(1.1);
+    transform:rotate(360deg);
 }
 
 .fact-box-number {
@@ -303,6 +303,32 @@ header {
     font-weight: 600;
     font-size: 19px;
     color: #727272;
+}
+/* additional section styles */
+
+.additional-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.additional-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    padding: 80px 0;
+}
+.additional-single-div{
+    width: 280px;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+.additional-single-div > i{
+    font-size: 50px;
+}
+.additional-single-div > h2{
+    margin: 20px 0;
 }
 
 /* sponsor section styles */
