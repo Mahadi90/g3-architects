@@ -133,7 +133,7 @@ header {
     color: #727272;
 }
 
-.quick-list-title .features {
+.quick-list-title .quick-features {
     color: #FF900E;
 }
 
@@ -164,22 +164,16 @@ header {
 }
 
 /* feature section styles */
-.feature-section{
+.feature-section {
     margin: 20px 0;
 }
+
 .features {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.features::before{
-    content: '';
-     top: 0;
-     left: 0;
-     width: 3px;
-     height: 70px;
-     background-color: #FF900E;
-}
+
 .feature-info {
     width: 536px;
     margin-top: 30px;
@@ -217,6 +211,7 @@ header {
     color: #727272;
     margin-bottom: 10px;
 }
+
 .feature-img img {
     width: 490px;
     height: 820px;
@@ -234,12 +229,63 @@ header {
     margin-left: -80px;
     position: absolute;
 }
-.experience h4{
+
+.experience h4 {
     font-weight: 700;
     font-size: 40px;
 }
-.experience p{
+
+.experience p {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+}
+
+/* facts section styles */
+.facts {
+    margin: 100px auto 50px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.facts-description {
+    width: 600px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 20px 0;
+}
+
+.fact-box-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fact-box {
+    width: 160px;
+    margin: 0 30px;
+    padding: 35px 25px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: .5s;
+}
+.fact-box:hover{
+    transform: scale(1.1);
+}
+.fact-box-number {
+    font-weight: 600;
+    font-size: 40px;
+    color: #424242;
+    margin: 10px 0;
+}
+
+.fact-box-des {
+    font-weight: 600;
+    font-size: 19px;
+    color: #727272;
 }
